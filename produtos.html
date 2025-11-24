@@ -1,97 +1,94 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Produtos | Emanare</title>
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Coleção — Emanare</title>
+  <link rel="stylesheet" href="css/style.css" />
 </head>
 <body>
   <header>
-    <div class="navbar">
-      <div>
-        <span class="logo">Emanare</span>
-        <span class="tagline">coleções que perfumam e acolhem</span>
-      </div>
-      <nav>
-        <a href="index.html">Início</a>
-        <a href="produtos.html">Produtos</a>
-        <a href="produto-refugio.html">Refúgio</a>
+    <nav class="navbar">
+      <a class="brand" href="index.html">
+        <span class="logo-mark" aria-hidden="true">E</span>
+        <span>Emanare</span>
+      </a>
+      <div class="nav-links">
+        <a href="index.html#estados">Estados</a>
+        <a href="index.html#produtos">Produtos</a>
         <a href="clube.html">Clube</a>
-        <a href="sobre.html">Sobre</a>
         <a href="faq.html">FAQ</a>
         <a href="contato.html">Contato</a>
-      </nav>
-    </div>
+      </div>
+    </nav>
   </header>
 
-  <main>
-    <section class="hero">
-      <div>
-        <div class="badge">Linha permanente</div>
-        <h1>Aromas autorais para cada momento do dia</h1>
-        <p>Velas, sprays e difusores criados com óleos essenciais naturais, misturas exclusivas e produção de pequena escala.</p>
-        <div class="button-row">
-          <a class="button primary" href="produto-refugio.html">Conheça o Refúgio</a>
-          <a class="button secondary" href="clube.html">Assine o clube</a>
-        </div>
-      </div>
-      <div class="card">
-        <h3>Benefícios da linha</h3>
-        <ul class="list">
-          <li>Fragrâncias compostas com aromaterapeutas.</li>
-          <li>Embalagens recicláveis e refis disponíveis.</li>
-          <li>Zero parabenos, ftalatos ou testes em animais.</li>
-        </ul>
-      </div>
-    </section>
-
-    <h2 class="section-title">Coleções em destaque</h2>
-    <div class="cards">
-      <article class="card">
-        <h3>Refúgio</h3>
-        <p>Cedro, âmbar e flor de laranjeira para uma atmosfera acolhedora de fim de tarde.</p>
-      </article>
-      <article class="card">
-        <h3>Despertar</h3>
-        <p>Cítrico herbal com grapefruit, limão siciliano e alecrim para ativar o foco.</p>
-      </article>
-      <article class="card">
-        <h3>Fluir</h3>
-        <p>Lavanda, sândalo e chá branco em um equilíbrio que acalma a mente e solta os ombros.</p>
-      </article>
-      <article class="card">
-        <h3>Horizonte</h3>
-        <p>Notas de bergamota, musk e folhas verdes para acompanhar rotinas criativas.</p>
-      </article>
+  <section class="page-hero">
+    <div class="container">
+      <p class="badge">Coleção completa</p>
+      <h1>Velas sensoriais para cada estado</h1>
+      <p>Seis atmosferas, do descanso profundo ao recomeço fresco do ano novo. Escolha o que o corpo pede hoje.</p>
     </div>
+  </section>
 
-    <h2 class="section-title">Formas de uso</h2>
-    <div class="grid-2">
-      <div class="card">
-        <h3>Velas vegetais</h3>
-        <p>Produzidas com cera de coco e pavio de algodão. Queimam limpas e perfumam de maneira gradual.</p>
-      </div>
-      <div class="card">
-        <h3>Sprays de ambiente</h3>
-        <p>Formulação aquosa, ideal para tecidos e espaços de trabalho. Secagem rápida e rastro leve.</p>
-      </div>
-      <div class="card">
-        <h3>Difusores</h3>
-        <p>Bastões de fibra que mantêm a fragrância ativa por até 90 dias. Inclui refil opcional.</p>
-      </div>
-      <div class="card">
-        <h3>Óleos de ritual</h3>
-        <p>Blend de óleos essenciais para uso em cerâmica aromática ou respiração profunda antes de meditar.</p>
+  <main class="section">
+    <div class="container">
+      <div class="product-grid">
+        <div class="product-card">
+          <div class="tag">Refúgio</div>
+          <div class="illustration lavender" role="img" aria-label="Refúgio"></div>
+          <p>Lavanda · Camomila · Madeiras claras</p>
+          <p class="quote">“A noite é mais viva e mais rica do que o dia.” — Victor Hugo</p>
+          <a class="btn-primary" href="produto-refugio.html">Ver ritual</a>
+        </div>
+        <div class="product-card">
+          <div class="tag">Aurora</div>
+          <div class="illustration eucalyptus" role="img" aria-label="Aurora"></div>
+          <p>Eucalipto · Menta · Lima</p>
+          <p class="quote">“Sou composta por urgências.” — Clarice Lispector</p>
+          <a class="btn-primary" href="produto-aurora.html">Ver ritual</a>
+        </div>
+        <div class="product-card">
+          <div class="tag">Afeto</div>
+          <div class="illustration ylang" role="img" aria-label="Afeto"></div>
+          <p>Ylang · Jasmim · Baunilha</p>
+          <p class="quote">“Não há encanto igual ao da ternura.” — Charlotte Brontë</p>
+          <a class="btn-primary" href="produto-afeto.html">Ver ritual</a>
+        </div>
+        <div class="product-card">
+          <div class="tag">Foco</div>
+          <div class="illustration lemon" role="img" aria-label="Foco"></div>
+          <p>Capim-limão · Alecrim · Sálvia</p>
+          <p class="quote">“O real não está na saída nem na chegada.” — Guimarães Rosa</p>
+          <a class="btn-primary" href="produto-foco.html">Ver ritual</a>
+        </div>
+        <div class="product-card">
+          <div class="tag">Natal</div>
+          <div class="illustration lavender" role="img" aria-label="Natal"></div>
+          <p>Canela · Noz-moscada · Cedro</p>
+          <p class="quote">“O lar acende memórias.”</p>
+          <a class="btn-primary" href="produto-natal.html">Ver ritual</a>
+        </div>
+        <div class="product-card">
+          <div class="tag">Ano Novo</div>
+          <div class="illustration eucalyptus" role="img" aria-label="Ano Novo"></div>
+          <p>Flor de laranjeira · Lima · Notas frescas</p>
+          <p class="quote">“Todo começo pede leveza.”</p>
+          <a class="btn-primary" href="produto-ano-novo.html">Ver ritual</a>
+        </div>
       </div>
     </div>
   </main>
 
-  <footer>
-    Emanare · linha completa de fragrâncias para rituais diários
+  <footer class="footer">
+    <div class="container">
+      <div class="brand">
+        <span class="logo-mark" aria-hidden="true">E</span>
+        <span>Emanare</span>
+      </div>
+      <small>Velas sensoriais para rituais diários. Respirar também é design.</small>
+    </div>
   </footer>
+  <script src="js/main.js"></script>
 </body>
 </html>

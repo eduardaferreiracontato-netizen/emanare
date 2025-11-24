@@ -1,94 +1,184 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Emanare | Aroma, bem-estar e presença</title>
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Emanare — Velas sensoriais</title>
+  <link rel="stylesheet" href="css/style.css" />
 </head>
 <body>
   <header>
-    <div class="navbar">
-      <div>
-        <span class="logo">Emanare</span>
-        <span class="tagline">aromas que acolhem a sua rotina</span>
-      </div>
-      <nav>
-        <a href="index.html">Início</a>
-        <a href="produtos.html">Produtos</a>
-        <a href="produto-refugio.html">Refúgio</a>
+    <nav class="navbar">
+      <a class="brand" href="index.html">
+        <span class="logo-mark" aria-hidden="true">E</span>
+        <span>Emanare</span>
+      </a>
+      <div class="nav-links">
+        <a href="#estados">Estados</a>
+        <a href="#produtos">Produtos</a>
         <a href="clube.html">Clube</a>
-        <a href="sobre.html">Sobre</a>
         <a href="faq.html">FAQ</a>
         <a href="contato.html">Contato</a>
-      </nav>
-    </div>
+      </div>
+    </nav>
   </header>
 
   <main>
-    <section class="hero">
-      <div>
-        <div class="badge">Nova coleção outono · edição limitada</div>
-        <h1>Crie refúgios de tranquilidade com aromas artesanais</h1>
-        <p>A Emanare une fragrâncias autorais a ingredientes naturais para transformar cada ambiente em um convite ao cuidado, foco e descanso.</p>
-        <div class="button-row">
-          <a class="button primary" href="produtos.html">Conhecer linha completa</a>
-          <a class="button secondary" href="produto-refugio.html">Experimente o Refúgio</a>
+    <section class="hero" id="hero">
+      <div class="container">
+        <div>
+          <p class="badge">Ritual olfativo diário</p>
+          <h1>Não acenda uma vela. Inicie um ritual.</h1>
+          <p>Quatro atmosferas. Quatro estados. Uma rotina que cuida de energia, presença, foco e descanso com aromaterapia guiada.</p>
+          <div style="display:flex; gap:12px; flex-wrap:wrap;">
+            <a class="btn-primary" href="#produtos">Descubra seu aroma ideal</a>
+            <a class="btn-secondary" href="produtos.html">Ver coleção completa</a>
+          </div>
         </div>
-      </div>
-      <div class="card">
-        <h3>Rituais para o dia inteiro</h3>
-        <p><strong>Acorde com energia</strong> com nossos sprays cítricos, <strong>mantenha o foco</strong> com blend de alecrim e <strong>encerre</strong> com notas amadeiradas que acalmam.</p>
-        <ul class="list">
-          <li>Produção de pequena escala e livre de parabenos.</li>
-          <li>Frascos recicláveis e refis disponíveis.</li>
-          <li>Envio rápido para todo o Brasil.</li>
-        </ul>
+        <div class="video-placeholder">
+          <div class="video-frame"></div>
+          <div class="smoke-badge">Chama suave · 12h</div>
+          <div class="video-label">Prévia do ritual (vídeo placeholder)</div>
+        </div>
+        <div class="hero-smoke" aria-hidden="true"></div>
       </div>
     </section>
 
-    <h2 class="section-title">Destaques da casa Emanare</h2>
-    <div class="cards">
-      <article class="card">
-        <h3>Blend Refúgio</h3>
-        <p>Notas de cedro, âmbar e flor de laranjeira criam uma sensação de abraço aconchegante. Perfeito para desacelerar.</p>
-      </article>
-      <article class="card">
-        <h3>Spray Despertar</h3>
-        <p>Combinação luminosa de grapefruit e folhas verdes para abrir o dia com leveza e foco.</p>
-      </article>
-      <article class="card">
-        <h3>Velas Intencionais</h3>
-        <p>Produzidas com cera vegetal e pavio de algodão. Escolha o mantra e a fragrância que guiam seu ritual.</p>
-      </article>
-    </div>
+    <section class="section" id="estados">
+      <div class="container">
+        <h2>Qual estado você precisa hoje?</h2>
+        <p class="lead">Escolha o clima que seu corpo pede e deixe a vela conduzir o ambiente.</p>
+        <div class="grid">
+          <div class="card">
+            <p class="badge">Refúgio</p>
+            <div class="illustration lavender" role="img" aria-label="Refúgio"></div>
+            <h3>Descanso</h3>
+            <p>Lavanda e camomila que reduzem cortisol e sinalizam ao corpo: é hora de desligar.</p>
+            <a class="btn-ghost" href="produto-refugio.html">Abrir ritual</a>
+          </div>
+          <div class="card">
+            <p class="badge">Aurora</p>
+            <div class="illustration eucalyptus" role="img" aria-label="Aurora"></div>
+            <h3>Energia</h3>
+            <p>Eucalipto e menta para respiração ampla, clareza matinal e presença.</p>
+            <a class="btn-ghost" href="produto-aurora.html">Abrir ritual</a>
+          </div>
+          <div class="card">
+            <p class="badge">Afeto</p>
+            <div class="illustration ylang" role="img" aria-label="Afeto"></div>
+            <h3>Presença</h3>
+            <p>Ylang e jasmim que aquecem o coração e deixam o ambiente mais acolhedor.</p>
+            <a class="btn-ghost" href="produto-afeto.html">Abrir ritual</a>
+          </div>
+          <div class="card">
+            <p class="badge">Foco</p>
+            <div class="illustration lemon" role="img" aria-label="Foco"></div>
+            <h3>Concentração</h3>
+            <p>Capim-limão e alecrim para atenção sustentada enquanto o laptop abre.</p>
+            <a class="btn-ghost" href="produto-foco.html">Abrir ritual</a>
+          </div>
+        </div>
+      </div>
+    </section>
 
-    <h2 class="section-title">O que você sente ao escolher Emanare</h2>
-    <div class="grid-2">
-      <div class="card">
-        <h3>Cuidado consciente</h3>
-        <p>Selecionamos matérias-primas rastreáveis e embalagens reutilizáveis para que sua escolha seja mais gentil com o planeta.</p>
+    <section class="section" id="produtos">
+      <div class="container">
+        <h2>Coleção completa</h2>
+        <p class="lead">Notas aromáticas, ciência e poesia caminhando juntas em cada vela.</p>
+        <div class="product-grid">
+          <div class="product-card">
+            <div class="tag">Refúgio</div>
+            <div class="illustration lavender" role="img" aria-label="Refúgio"></div>
+            <p class="quote">“A noite é mais viva e mais rica do que o dia.” — Victor Hugo</p>
+            <p>Lavanda, camomila e madeiras claras que reduzem o ritmo e favorecem a higiene do sono.</p>
+            <a class="btn-primary" href="produto-refugio.html">Comprar</a>
+          </div>
+          <div class="product-card">
+            <div class="tag">Aurora</div>
+            <div class="illustration eucalyptus" role="img" aria-label="Aurora"></div>
+            <p class="quote">“Sou composta por urgências.” — Clarice Lispector</p>
+            <p>Eucalipto, menta e lima acendem o corpo de manhã e limpam o ar para começar.</p>
+            <a class="btn-primary" href="produto-aurora.html">Comprar</a>
+          </div>
+          <div class="product-card">
+            <div class="tag">Afeto</div>
+            <div class="illustration ylang" role="img" aria-label="Afeto"></div>
+            <p class="quote">“Não há encanto igual ao da ternura.” — Charlotte Brontë</p>
+            <p>Ylang, jasmim e baunilha leve para presença, aconchego e conversas demoradas.</p>
+            <a class="btn-primary" href="produto-afeto.html">Comprar</a>
+          </div>
+          <div class="product-card">
+            <div class="tag">Foco</div>
+            <div class="illustration lemon" role="img" aria-label="Foco"></div>
+            <p class="quote">“O real não está na saída nem na chegada.” — Guimarães Rosa</p>
+            <p>Capim-limão, alecrim e sálvia clareiam a mente para mergulhar em projetos.</p>
+            <a class="btn-primary" href="produto-foco.html">Comprar</a>
+          </div>
+          <div class="product-card">
+            <div class="tag">Natal</div>
+            <div class="illustration red" role="img" aria-label="Natal"></div>
+            <p class="quote">“O lar acende memórias.”</p>
+            <p>Canela, noz-moscada e cedro em um blend de especiarias com brilho dourado.</p>
+            <a class="btn-primary" href="produto-natal.html">Comprar</a>
+          </div>
+          <div class="product-card">
+            <div class="tag">Ano Novo</div>
+            <div class="illustration light" role="img" aria-label="Ano Novo"></div>
+            <p class="quote">“Todo começo pede leveza.”</p>
+            <p>Flor de laranjeira, lima e notas frescas para renovação e respiração aberta.</p>
+            <a class="btn-primary" href="produto-ano-novo.html">Comprar</a>
+          </div>
+        </div>
       </div>
-      <div class="card">
-        <h3>Apoio sensorial</h3>
-        <p>Aromas pensados com aromaterapeutas para auxiliar concentração, descanso e presença plena.</p>
+    </section>
+
+    <section class="section" id="ritual">
+      <div class="container">
+        <h2>Ritual guiado</h2>
+        <p class="lead">Sincronize a chama com o momento do dia e perceba a diferença.</p>
+        <div class="ritual-list">
+          <div class="ritual-item">
+            <p class="badge">Refúgio</p>
+            <p>Acenda 30 min antes de dormir. Respire 4-6-4 e diminua as luzes.</p>
+          </div>
+          <div class="ritual-item">
+            <p class="badge">Aurora</p>
+            <p>Primeira ação do dia. Abra a janela, alongue e deixe o aroma acordar.</p>
+          </div>
+          <div class="ritual-item">
+            <p class="badge">Afeto</p>
+            <p>Após o banho. Hidrate a pele, ligue uma música calma e convide o corpo a sentir.</p>
+          </div>
+          <div class="ritual-item">
+            <p class="badge">Foco</p>
+            <p>Ao abrir o laptop. Defina a tarefa da hora e mantenha o fio de atenção.</p>
+          </div>
+        </div>
       </div>
-      <div class="card">
-        <h3>Entrega acolhedora</h3>
-        <p>Cada pedido acompanha um guia de uso, playlist e carta escrita à mão para tornar o unboxing um momento especial.</p>
+    </section>
+
+    <section class="section" id="ugc">
+      <div class="container">
+        <h2>Respirações compartilhadas</h2>
+        <p class="lead">Imagens reais de quem já transformou o ambiente com Emanare.</p>
+        <div class="ugc">
+          <div class="ugc-tile" role="img" aria-label="Ambiente com vela"></div>
+          <div class="ugc-tile" role="img" aria-label="Detalhe de chama"></div>
+          <div class="ugc-tile" role="img" aria-label="Leitura com vela"></div>
+        </div>
       </div>
-      <div class="card">
-        <h3>Comunidade Emanare</h3>
-        <p>Acesso a encontros mensais de respiração e meditação guiada, além de lançamentos antecipados.</p>
-      </div>
-    </div>
+    </section>
   </main>
 
-  <footer>
-    Emanare · fragrâncias conscientes para rituais diários
+  <footer class="footer">
+    <div class="container">
+      <div class="brand">
+        <span class="logo-mark" aria-hidden="true">E</span>
+        <span>Emanare</span>
+      </div>
+      <small>Velas sensoriais para rituais diários. Respirar também é design.</small>
+    </div>
   </footer>
+  <script src="js/main.js"></script>
 </body>
 </html>

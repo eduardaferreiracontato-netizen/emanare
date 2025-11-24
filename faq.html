@@ -1,76 +1,70 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>FAQ | Emanare</title>
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>FAQ — Emanare</title>
+  <link rel="stylesheet" href="css/style.css" />
 </head>
 <body>
   <header>
-    <div class="navbar">
-      <div>
-        <span class="logo">Emanare</span>
-        <span class="tagline">dúvidas frequentes</span>
-      </div>
-      <nav>
-        <a href="index.html">Início</a>
+    <nav class="navbar">
+      <a class="brand" href="index.html">
+        <span class="logo-mark" aria-hidden="true">E</span>
+        <span>Emanare</span>
+      </a>
+      <div class="nav-links">
+        <a href="index.html#estados">Estados</a>
         <a href="produtos.html">Produtos</a>
-        <a href="produto-refugio.html">Refúgio</a>
         <a href="clube.html">Clube</a>
-        <a href="sobre.html">Sobre</a>
         <a href="faq.html">FAQ</a>
         <a href="contato.html">Contato</a>
-      </nav>
-    </div>
+      </div>
+    </nav>
   </header>
 
-  <main>
-    <section class="hero">
-      <div>
-        <div class="badge">Suporte atencioso</div>
-        <h1>Respostas rápidas sobre envios, trocas e cuidados</h1>
-        <p>Reunimos as perguntas mais comuns. Se precisar de algo personalizado, fale com nosso time pelo formulário de contato.</p>
-      </div>
-      <div class="card">
-        <h3>Precisa de ajuda agora?</h3>
-        <p>Envie um e-mail para <strong>cuidados@emanare.com.br</strong> que respondemos em até 1 dia útil.</p>
-      </div>
-    </section>
-
-    <h2 class="section-title">Envio e prazos</h2>
-    <div class="list">
-      <ul>
-        <li><strong>Prazo:</strong> pedidos são postados em até 2 dias úteis. O prazo total depende do CEP.</li>
-        <li><strong>Rastreamento:</strong> você recebe o código por e-mail assim que o pedido é enviado.</li>
-        <li><strong>Retirada:</strong> disponível em nosso ateliê em São Paulo mediante agendamento.</li>
-      </ul>
+  <section class="page-hero">
+    <div class="container">
+      <p class="badge">FAQ</p>
+      <h1>Dúvidas frequentes</h1>
+      <p>Cuidados com pavio, duração da chama e orientações de troca: veja se sua pergunta já está respondida.</p>
     </div>
+  </section>
 
-    <h2 class="section-title">Trocas e devoluções</h2>
-    <div class="list">
-      <ul>
-        <li><strong>Garantia de encantamento:</strong> se a fragrância não combinar com você, trocamos em até 7 dias.</li>
-        <li><strong>Defeitos:</strong> qualquer dano de transporte é resolvido com reenvio imediato.</li>
-        <li><strong>Como solicitar:</strong> escreva para cuidados@emanare.com.br com o número do pedido.</li>
-      </ul>
-    </div>
-
-    <h2 class="section-title">Cuidados com os produtos</h2>
-    <div class="list">
-      <ul>
-        <li>Vela: faça a primeira queima por 2 horas para nivelar a cera e evitar túneis.</li>
-        <li>Spray: borrife a 30cm de tecidos. Não usar em couro.</li>
-        <li>Difusor: vire os varetas semanalmente para manter o perfume vivo.</li>
-      </ul>
+  <main class="section">
+    <div class="container">
+      <div class="faq-item">
+        <div class="faq-question">Como faço a primeira queima?<span>+</span></div>
+        <div class="faq-answer">Acenda por 2 horas ou até a cera derreter de borda a borda. Isso evita túnel e aumenta a vida útil.</div>
+      </div>
+      <div class="faq-item">
+        <div class="faq-question">Quantas horas dura?<span>+</span></div>
+        <div class="faq-answer">Nossas velas de 180g rendem cerca de 35 horas, com pavio aparado a 0,5cm a cada uso.</div>
+      </div>
+      <div class="faq-item">
+        <div class="faq-question">Posso usar em ambientes pequenos?<span>+</span></div>
+        <div class="faq-answer">Sim. Prefira janelas entreabertas e mantenha fora do alcance de crianças, plantas e animais.</div>
+      </div>
+      <div class="faq-item">
+        <div class="faq-question">Como limpar o pote para reuso?<span>+</span></div>
+        <div class="faq-answer">Aguarde a cera esfriar, remova o disco restante e lave com água quente e detergente neutro.</div>
+      </div>
+      <div class="faq-item">
+        <div class="faq-question">Quais ingredientes usamos?<span>+</span></div>
+        <div class="faq-answer">Cera vegetal, pavio de algodão e óleos essenciais livres de ftalatos. Nenhum teste em animais.</div>
+      </div>
     </div>
   </main>
 
-  <footer>
-    Emanare · estamos aqui para ajudar
+  <footer class="footer">
+    <div class="container">
+      <div class="brand">
+        <span class="logo-mark" aria-hidden="true">E</span>
+        <span>Emanare</span>
+      </div>
+      <small>Velas sensoriais para rituais diários. Respirar também é design.</small>
+    </div>
   </footer>
+  <script src="js/main.js"></script>
 </body>
 </html>
